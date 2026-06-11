@@ -183,7 +183,7 @@ export default function Home() {
           {/* Quick Search Chips */}
           <div className="flex flex-wrap items-center justify-center gap-2.5 pt-2">
             <span className="text-xs text-gray-500 font-semibold">Sering dicari:</span>
-            {['Kalkulus I', 'Fisika Dasar I', 'Kimia Dasar I', 'Struktur Data'].map((chip, idx) => (
+            {['Kalkulus I', 'Fisika Dasar I', 'Fisika Dasar II', 'Struktur Data'].map((chip, idx) => (
               <button
                 key={idx}
                 onClick={() => handleSuggestionClick(chip)}

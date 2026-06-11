@@ -3,7 +3,7 @@ import { Note, User, Transaction } from './types';
 export const MOCK_COURSES = [
   { id: 'SKPB-KAL1', code: 'SF141301', name: 'Kalkulus I', department: 'SKPB', faculty: 'FSAD' },
   { id: 'SKPB-FIS1', code: 'SF141303', name: 'Fisika Dasar I', department: 'SKPB', faculty: 'FSAD' },
-  { id: 'SKPB-KIM1', code: 'SF141305', name: 'Kimia Dasar I', department: 'SKPB', faculty: 'FSAD' },
+  { id: 'SKPB-KIM1', code: 'SF141305', name: 'Fisika Dasar II', department: 'SKPB', faculty: 'FSAD' },
   { id: 'SKPB-KAL2', code: 'SF141302', name: 'Kalkulus II', department: 'SKPB', faculty: 'FSAD' },
   { id: 'SKPB-FIS2', code: 'SF141304', name: 'Fisika Dasar II', department: 'SKPB', faculty: 'FSAD' },
   { id: 'TC-PROGDAS', code: 'IF184101', name: 'Pemrograman Dasar', department: 'Teknik Informatika', faculty: 'FTEIC' },
@@ -81,9 +81,9 @@ export const MOCK_NOTES: Note[] = [
   },
   {
     id: 'note-3',
-    title: 'Rangkuman Praktis Kimia Dasar I - Stoikiometri & Struktur Atom',
+    title: 'Rangkuman Praktis Fisika Dasar II - Stoikiometri & Struktur Atom',
     courseCode: 'SF141305',
-    courseName: 'Kimia Dasar I',
+    courseName: 'Fisika Dasar II',
     topic: 'Dasar Kimia TPB',
     lecturer: 'Dr. Didik Prasetyoko, M.Sc.',
     semester: 1,
@@ -99,7 +99,7 @@ export const MOCK_NOTES: Note[] = [
     downloads: 180,
     dateUploaded: '2025-09-22',
     pdfUrl: '/files/kimia-1-stoikiometri.pdf',
-    description: 'Materi ringkas Kimia Dasar I untuk mahasiswa baru ITS. Fokus pada Stoikiometri (Konsep Mol, Reaktan Pembatas, Persentase Hasil), Teori Atom Bohr & Mekanika Kuantum (Bilangan Kuantum), Konfigurasi Elektron, dan Tren Sifat Periodik Unsur (Jari-jari, Elektronegativitas, Energi Ionisasi).',
+    description: 'Materi ringkas Fisika Dasar II untuk mahasiswa baru ITS. Fokus pada Stoikiometri (Konsep Mol, Reaktan Pembatas, Persentase Hasil), Teori Atom Bohr & Mekanika Kuantum (Bilangan Kuantum), Konfigurasi Elektron, dan Tren Sifat Periodik Unsur (Jari-jari, Elektronegativitas, Energi Ionisasi).',
     previewPages: [
       'Halaman 1: Stoikiometri Larutan & Penentuan Rumus Empiris.',
       'Halaman 2: Bilangan Kuantum (Utama, Azimut, Magnetik, Spin) & Aturan Aufbau/Hund.',

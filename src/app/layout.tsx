@@ -62,7 +62,7 @@ export default function RootLayout({
                   <ul className="space-y-2 text-xs text-brand-secondary/65">
                     <li><a href="/explore?course=Kalkulus+I" className="hover:text-white transition-colors">Kalkulus I (SF141301)</a></li>
                     <li><a href="/explore?course=Fisika+Dasar+I" className="hover:text-white transition-colors">Fisika Dasar I (SF141303)</a></li>
-                    <li><a href="/explore?course=Kimia+Dasar+I" className="hover:text-white transition-colors">Kimia Dasar I (SF141305)</a></li>
+                    <li><a href="/explore?course=Kimia+Dasar+I" className="hover:text-white transition-colors">Fisika Dasar II (SF141305)</a></li>
                     <li><a href="/explore?course=Kalkulus+II" className="hover:text-white transition-colors">Kalkulus II (SF141302)</a></li>
                   </ul>
                 </div>
@@ -72,7 +72,6 @@ export default function RootLayout({
                   <h4 className="text-xs font-bold uppercase tracking-wider text-white mb-3">Fakultas / Jurusan</h4>
                   <ul className="space-y-2 text-xs text-brand-secondary/65">
                     <li><a href="/explore?faculty=FTEIC" className="hover:text-white transition-colors">FTEIC (Elektro & Informatika)</a></li>
-                    <li><a href="/explore?faculty=FTIB" className="hover:text-white transition-colors">FTIB (Industri & Rekayasa)</a></li>
                     <li><a href="/explore?faculty=FSAD" className="hover:text-white transition-colors">FSAD (Sains & Analitika Data)</a></li>
                   </ul>
                 </div>

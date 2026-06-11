@@ -601,7 +601,6 @@ function DashboardContent() {
                         >
                           <option value="FSAD">FSAD (Sains)</option>
                           <option value="FTEIC">FTEIC (Informatika)</option>
-                          <option value="FTIB">FTIB (Industri)</option>
                           <option value="SKPB">SKPB (TPB Bersama)</option>
                         </select>
                       </div>
